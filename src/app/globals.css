@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  list-style: none;
+}
+
+.slider {
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.slide-track {
+  display: flex;
+
+  width: calc(294px * 12);
+
+  animation: scroll 40s linear infinite;
+}
+
+.nav {
+  box-shadow: 0px 14px 14.3px 7px rgba(0, 0, 0, 0.36);
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-294px * 6));
+  }
+}
+.slide {
+  width: 294px;
+  height: 100%;
+
+  padding: 15px;
+  perspective: 200px;
+}
