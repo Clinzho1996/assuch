@@ -24,12 +24,12 @@ function Footer() {
           </Button>
         </div>
       </center>
-      <div className="flex flex-col md:flex-row justify-between items-start mt-[100px] w-[95%] md:w-[80%] mx-auto">
+      <div className="flex flex-col md:flex-row justify-between items-start mt-[40px] md:mt-[100px] w-[95%] md:w-[80%] mx-auto">
         <div className="flex flex-col">
           <h3 className="text-black font-Montserrat font-bold text-[15px]">
             Useful links
           </h3>
-          <div className="mt-10 flex flex-col gap-3">
+          <div className="mt-4 flex flex-col gap-3 md:mt-10">
             <Link
               className="text-gray-500 font-Montserrat text-[15px]"
               href="/"
@@ -62,11 +62,11 @@ function Footer() {
             </Link>
           </div>
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col mt-6 md:mt-0">
           <h3 className="text-black font-Montserrat font-bold text-[15px]">
             About
           </h3>
-          <div className="mt-10 flex flex-col gap-3">
+          <div className="mt-4 flex flex-col gap-3 md:mt-10">
             <Link
               className="text-gray-500 font-Montserrat text-[15px]"
               href="/"
@@ -87,11 +87,11 @@ function Footer() {
             </Link>
           </div>
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col mt-6 md:mt-0">
           <h3 className="text-black font-Montserrat font-bold text-[15px]">
             Terms
           </h3>
-          <div className="mt-10 flex flex-col gap-3">
+          <div className="mt-4 flex flex-col gap-3 md:mt-10">
             <Link
               className="text-gray-500 font-Montserrat text-[15px]"
               href="/"
@@ -118,7 +118,7 @@ function Footer() {
             </Link>
           </div>
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col mt-6 md:mt-0">
           <Image src={Logo} alt="logo" width={50} height={50} />
           <div className="mt-5 flex flex-col gap-3">
             <Link
