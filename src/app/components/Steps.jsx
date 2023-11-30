@@ -7,11 +7,11 @@ import Process from "../../../public/process.png";
 
 function Steps() {
   return (
-    <div className="flex flex-row justify-between align-middle p-[6%] gap-[150px] items-center">
+    <div className="flex flex-col md:flex-row justify-between align-middle p-[6%] gap-[50px] md:gap-[150px] items-center mt-10 md:mt-0">
       <div>
         <Image src={Vid} alt="video" />
       </div>
-      <div className="flex flex-col mr-48">
+      <div className="flex flex-col mr-0 md:mr-48">
         <h2 className="text-black font-Montserrat text-[30px] leading-8 font-bold">
           We Follow three Steps
         </h2>
@@ -28,7 +28,7 @@ function Steps() {
               <Image
                 src={Evaluate}
                 alt="evaluate"
-                className="w-[20px] h-[26px]"
+                className="w-[20px] h-[26px] object-contain"
               />
             </div>
             <div>
@@ -40,12 +40,12 @@ function Steps() {
               </p>
             </div>
           </div>
-          <div className="border-[1px] border-[#97E0FCBD] bg-[#00ADEF] p-6 flex flex-row gap-10 align-middle items-center mt-20">
+          <div className="border-[1px] border-[#97E0FCBD] bg-[#00ADEF] p-6 flex flex-row gap-10 align-middle items-center mt-10 md:mt-20">
             <div className="px-8 py-7 bg-[#fff] rounded-full">
               <Image
                 src={Process}
                 alt="evaluate"
-                className="w-[20px] h-[26px]"
+                className="w-[20px] h-[26px] object-contain"
               />
             </div>
             <div>
@@ -58,9 +58,13 @@ function Steps() {
               </p>
             </div>
           </div>
-          <div className="border-[1px] border-[#97E0FCBD] p-6 flex flex-row gap-10 align-middle items-center mt-20">
+          <div className="border-[1px] border-[#97E0FCBD] p-6 flex flex-row gap-10 align-middle items-center mt-10 md:mt-20">
             <div className="px-8 py-7 bg-[#DBF0F8] rounded-full">
-              <Image src={Close} alt="evaluate" className="w-[20px] h-[26px]" />
+              <Image
+                src={Close}
+                alt="evaluate"
+                className="w-[20px] h-[26px] object-contain"
+              />
             </div>
             <div>
               <h3 className="text-black font-Montserrat text-[20px] leading-6 font-bold">

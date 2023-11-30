@@ -14,7 +14,7 @@ function WhyUs() {
       viewport={{ once: false, amount: 0.25 }}
     >
       <motion.div
-        className="flex justify-center  flex-col items-center xl:gap-0 gap-10"
+        className="flex justify-center  flex-col items-center xl:gap-0 gap-10 mt-20 md:mt-0"
         variants={fadeIn("down", "tween", 0.2, 1)}
         style={{
           background:
@@ -23,7 +23,7 @@ function WhyUs() {
           backgroundSize: "cover",
         }}
       >
-        <div className="bg-white px-40 py-5 rounded-br-md rounded-bl-md">
+        <div className="bg-white px-10 py-5 md:px-40 rounded-br-md rounded-bl-md">
           <motion.h2 className="font-montserrat text-black text-[30px] aliign-middle text-center font-bold">
             Why Choose Us
           </motion.h2>

@@ -4,4 +4,10 @@
 
 :root {
   list-style: none;
+  overflow-x: hidden;
+}
+
+body {
+  list-style: none;
+  overflow-x: hidden;
 }

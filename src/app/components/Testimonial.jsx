@@ -22,12 +22,12 @@ function Testimonial() {
     >
       <div className="flex-col md:flex-row justify-start gap-10 items-center align-middle pb-[300px] hidden md:flex">
         <div className="flex flex-col">
-            <Image
-              src={User}
-              alt="testimonials"
-              className="h-[774px] object-contain"
-              variants={slideIn("left", "tween", 0.2, 1)}
-            />
+          <Image
+            src={User}
+            alt="testimonials"
+            className="h-[774px] object-contain"
+            variants={slideIn("left", "tween", 0.2, 1)}
+          />
           <div className="bg-white shadow-xl p-20 left-20 w-[100%] mt-[-200px] ml-[350px]">
             <Image
               src={Quote}
@@ -64,7 +64,7 @@ function Testimonial() {
           </p>
         </div>
       </div>
-      <div className="flex flex-col md:hidden">
+      <div className="flex flex-col md:hidden  mt-[-80px] md:mt-0">
         <Image
           src={User}
           alt="testimonials"

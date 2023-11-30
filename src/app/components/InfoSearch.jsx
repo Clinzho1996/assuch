@@ -7,7 +7,7 @@ import { FiSearch } from "react-icons/fi";
 function InfoSearch() {
   return (
     <div
-      className="relative bg-cover bg-center h-[50vh] md:h-[80vh] flex items-center w-full md:mt-[-150px] mt-[0px]"
+      className="relative bg-cover bg-center h-[50vh] md:h-[80vh] items-center w-full md:mt-[-150px] mt-[0px] hidden md:flex"
       style={{
         background: "url('/curve.png')",
         backgroundRepeat: "no-repeat",
@@ -16,7 +16,7 @@ function InfoSearch() {
         width: "100%",
       }}
     >
-      <div className="flex-row gap-5 justify-between content-center align-middle items-center w-[85%] mx-auto shadow-lg p-8 hidden md:flex">
+      <div className="flex-row gap-5 justify-between content-center align-middle items-center w-[85%] mx-auto shadow-lg p-8 ">
         <Link href="/" className="border-[#00000066] border-r-2 px-5">
           Real Estate
         </Link>
