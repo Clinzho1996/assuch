@@ -17,25 +17,25 @@ function InfoSearch() {
       }}
     >
       <div className="flex-row gap-5 justify-between content-center align-middle items-center w-[85%] mx-auto shadow-lg p-8 ">
-        <Link href="/" className="border-[#00000066] border-r-2 px-5">
+        <Link href="/" className="border-[#00000066] border-r-2 px-9">
           Real Estate
         </Link>
-        <Link href="/" className="border-[#00000066] border-r-2 px-5">
+        <Link href="/" className="border-[#00000066] border-r-2 px-9">
           Agriculture
         </Link>
-        <Link href="/" className="border-[#00000066] border-r-2 px-5">
+        <Link href="/" className="border-[#00000066] border-r-2 px-9">
           Trading
         </Link>
-        <Link href="/" className="border-[#00000066] border-r-2 px-5">
+        <Link href="/" className="border-[#00000066] border-r-2 px-9">
           Import
         </Link>
-        <Link href="/" className="border-[#00000066] border-r-2 px-5">
+        <Link href="/" className="border-[#00000066] border-r-2 px-9">
           Export
         </Link>
-        <Link href="/" className="border-[#00000066] border-r-2 px-5">
+        <Link href="/" className="border-[#00000066] border-r-2 px-9">
           Business
         </Link>
-        <Link href="/" className="border-[#00000066] border-r-2 px-5">
+        <Link href="/" className=" px-9">
           Technology
         </Link>
         <Button className="bg-[#C82C2F] p-2">

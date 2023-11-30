@@ -64,7 +64,15 @@ function Testimonial() {
           </p>
         </div>
       </div>
-      <div className="flex flex-col md:hidden  mt-[-80px] md:mt-0">
+      <div className="flex flex-col md:hidden  mt-[0px] md:mt-0">
+        <div>
+          <h3 className="text-black font-Montserrat font-bold text-[26px] md:text-[30px]">
+            Testimonials
+          </h3>
+          <p className="text-black text-[11px] font-Montserrat leading-5">
+            Over Ten thousand happy clients! Are you the next one?
+          </p>
+        </div>
         <Image
           src={User}
           alt="testimonials"

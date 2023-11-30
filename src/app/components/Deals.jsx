@@ -13,7 +13,7 @@ function Deals() {
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className="p-[6%] mt-[5%] md:-[-10%]"
+      className="p-[6%] mt-[5%] md:mt-[-10%]"
     >
       <motion.h2
         variants={fadeIn("down", "tween", 0.2, 1)}
