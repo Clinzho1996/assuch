@@ -76,7 +76,7 @@ function Testimonial() {
         <Image
           src={User}
           alt="testimonials"
-          className="h-[774px] object-contain"
+          className="h-[774px] object-contain mt-[-50px] md:mt-0"
         />
         <div className="bg-white p-10 shadow-md mt-[-150px]">
           <Image
