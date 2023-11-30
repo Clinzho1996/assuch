@@ -75,7 +75,7 @@ function Navbar() {
                 >
                   Sign In
                 </Link>
-                <Button className="bg-[#C82C2F] px-5 py-2 rounded-md text-white text-[12px] font-Montserrat text-md">
+                <Button className="bg-[#C82C2F] px-5 py-3 rounded-md text-white text-[12px] font-Montserrat text-md w-[150px]">
                   Sign Up
                 </Button>
               </div>
