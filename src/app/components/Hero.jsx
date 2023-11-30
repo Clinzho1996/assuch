@@ -29,7 +29,7 @@ const Hero = () => {
           >
             Top-Notch Products <br className="sm:flex hidden" /> And Services
             for You
-            <span className="absolute right-[5%] md:right-[0%] bottom-[-7%] md:bottom-[0%]">
+            <span className="absolute right-[2%] md:right-[0%] bottom-[-7%] md:bottom-[0%]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="96"
